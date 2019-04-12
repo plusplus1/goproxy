@@ -4,7 +4,7 @@ export GO111MODULE=on
 
 all: build
 
-build: generate
+build: 
 	@go build -o bin/goproxy -ldflags "-s -w" .
 
 generate:
@@ -14,7 +14,7 @@ generate:
 image:
 	@docker build -t goproxy/goproxy .
 
-test: generate
+test:
 	@go test -v `(go list ./... | grep "pkg/proxy")`
 
 clean:
