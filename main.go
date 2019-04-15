@@ -14,7 +14,10 @@ import (
 	"strings"
 	"syscall"
 	"time"
+)
 
+import (
+	"github.com/gin-gonic/gin"
 	"github.com/goproxyio/goproxy/pkg/proxy"
 )
 
@@ -67,9 +70,18 @@ func main() {
 			log.Fatalf("goproxy: make cache dir failed: %s", err)
 		}
 	}
+
+	var engine = gin.Default()
+	var handle = proxy.NewProxy(cacheDir)
+
+	engine.GET("/*action", func(ctx *gin.Context) {
+		handle.ServeHTTP(ctx.Writer, ctx.Request)
+		return
+	})
+
 	server := http.Server{
 		Addr:    listen,
-		Handler: proxy.NewProxy(cacheDir),
+		Handler: engine,
 	}
 
 	go func() {

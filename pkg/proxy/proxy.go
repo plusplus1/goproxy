@@ -38,7 +38,7 @@ func NewProxy(cache string) http.Handler {
 	innerHandle = http.FileServer(http.Dir(cacheDir))
 
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		log.Printf("goproxy: %s request %s\n", r.RemoteAddr, r.URL.Path)
+		//log.Printf("goproxy: %s request %s\n", r.RemoteAddr, r.URL.Path)
 		info, err := parseModInfoFromUrl(r.URL.Path)
 		if err != nil {
 			innerHandle.ServeHTTP(w, r)
