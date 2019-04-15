@@ -6,15 +6,15 @@ package modload
 
 import (
 	"bytes"
+	"encoding/hex"
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"
+	"github.com/goproxyio/goproxy/internal/goroot"
 	"github.com/goproxyio/goproxy/internal/modfetch"
 	"github.com/goproxyio/goproxy/internal/modinfo"
 	"github.com/goproxyio/goproxy/internal/module"
 	"github.com/goproxyio/goproxy/internal/search"
-	"encoding/hex"
-	"fmt"
-	"github.com/goproxyio/goproxy/internal/goroot"
 	"os"
 	"path/filepath"
 	"runtime/debug"

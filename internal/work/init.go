@@ -7,12 +7,12 @@
 package work
 
 import (
+	"flag"
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"
 	"github.com/goproxyio/goproxy/internal/load"
 	"github.com/goproxyio/goproxy/internal/sys"
-	"flag"
-	"fmt"
 	"os"
 	"path/filepath"
 	"strings"

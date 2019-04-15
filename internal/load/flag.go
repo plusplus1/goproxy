@@ -5,9 +5,9 @@
 package load
 
 import (
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/str"
-	"fmt"
 	"strings"
 )
 

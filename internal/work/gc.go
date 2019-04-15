@@ -16,12 +16,12 @@ import (
 	"runtime"
 	"strings"
 
+	"crypto/sha1"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"
 	"github.com/goproxyio/goproxy/internal/load"
-	"github.com/goproxyio/goproxy/internal/str"
 	"github.com/goproxyio/goproxy/internal/objabi"
-	"crypto/sha1"
+	"github.com/goproxyio/goproxy/internal/str"
 )
 
 // The Go toolchain.

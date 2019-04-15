@@ -6,6 +6,8 @@ package modload
 
 import (
 	"bytes"
+	"encoding/json"
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cache"
 	"github.com/goproxyio/goproxy/internal/cfg"
@@ -18,8 +20,6 @@ import (
 	"github.com/goproxyio/goproxy/internal/mvs"
 	"github.com/goproxyio/goproxy/internal/renameio"
 	"github.com/goproxyio/goproxy/internal/search"
-	"encoding/json"
-	"fmt"
 	"go/build"
 	"io/ioutil"
 	"os"

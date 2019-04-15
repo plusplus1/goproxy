@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/goproxyio/goproxy/internal/cfg"
 	"github.com/goproxyio/goproxy/internal/browser"
+	"github.com/goproxyio/goproxy/internal/cfg"
 )
 
 // httpClient is the default HTTP client, but a variable so it can be

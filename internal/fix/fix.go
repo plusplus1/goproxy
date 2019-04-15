@@ -6,12 +6,12 @@
 package fix
 
 import (
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"
 	"github.com/goproxyio/goproxy/internal/load"
 	"github.com/goproxyio/goproxy/internal/modload"
 	"github.com/goproxyio/goproxy/internal/str"
-	"fmt"
 	"os"
 )
 

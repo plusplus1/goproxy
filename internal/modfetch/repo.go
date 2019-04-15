@@ -17,7 +17,7 @@ import (
 	"github.com/goproxyio/goproxy/internal/modfetch/codehost"
 	"github.com/goproxyio/goproxy/internal/par"
 	"github.com/goproxyio/goproxy/internal/semver"
-	web "github.com/goproxyio/goproxy/internal/web"
+	"github.com/goproxyio/goproxy/internal/web"
 )
 
 const traceRepo = false // trace all repo actions, for debugging

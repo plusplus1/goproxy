@@ -20,10 +20,10 @@ import (
 	"sync"
 
 	"github.com/goproxyio/goproxy/internal/base"
+	"github.com/goproxyio/goproxy/internal/buildid"
 	"github.com/goproxyio/goproxy/internal/cache"
 	"github.com/goproxyio/goproxy/internal/cfg"
 	"github.com/goproxyio/goproxy/internal/load"
-	"github.com/goproxyio/goproxy/internal/buildid"
 )
 
 // A Builder holds global state about a build.

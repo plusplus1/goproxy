@@ -9,7 +9,6 @@ import (
 	"errors"
 	"fmt"
 	"go/build"
-	"github.com/goproxyio/goproxy/internal/goroot"
 	"os"
 	"path/filepath"
 	"sort"
@@ -17,6 +16,7 @@ import (
 	"time"
 
 	"github.com/goproxyio/goproxy/internal/cfg"
+	"github.com/goproxyio/goproxy/internal/goroot"
 	"github.com/goproxyio/goproxy/internal/modfetch"
 	"github.com/goproxyio/goproxy/internal/modfetch/codehost"
 	"github.com/goproxyio/goproxy/internal/module"

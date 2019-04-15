@@ -30,8 +30,8 @@ import (
 	"github.com/goproxyio/goproxy/internal/lockedfile"
 	"github.com/goproxyio/goproxy/internal/modload"
 	"github.com/goproxyio/goproxy/internal/str"
-	"github.com/goproxyio/goproxy/internal/work"
 	"github.com/goproxyio/goproxy/internal/test2json"
+	"github.com/goproxyio/goproxy/internal/work"
 )
 
 // Break init loop.

@@ -5,12 +5,12 @@
 package modcmd
 
 import (
+	"encoding/json"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/modfetch"
 	"github.com/goproxyio/goproxy/internal/modload"
 	"github.com/goproxyio/goproxy/internal/module"
 	"github.com/goproxyio/goproxy/internal/par"
-	"encoding/json"
 	"os"
 )
 

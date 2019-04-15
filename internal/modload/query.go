@@ -5,11 +5,11 @@
 package modload
 
 import (
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/modfetch"
 	"github.com/goproxyio/goproxy/internal/modfetch/codehost"
 	"github.com/goproxyio/goproxy/internal/module"
 	"github.com/goproxyio/goproxy/internal/semver"
-	"fmt"
 	pathpkg "path"
 	"strings"
 )

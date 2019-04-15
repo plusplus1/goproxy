@@ -5,8 +5,8 @@
 package test
 
 import (
-	"github.com/goproxyio/goproxy/internal/base"
 	"fmt"
+	"github.com/goproxyio/goproxy/internal/base"
 	"io"
 	"os"
 	"path/filepath"

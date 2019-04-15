@@ -6,6 +6,7 @@
 package modget
 
 import (
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"
 	"github.com/goproxyio/goproxy/internal/get"
@@ -19,7 +20,6 @@ import (
 	"github.com/goproxyio/goproxy/internal/semver"
 	"github.com/goproxyio/goproxy/internal/str"
 	"github.com/goproxyio/goproxy/internal/work"
-	"fmt"
 	"os"
 	pathpkg "path"
 	"path/filepath"

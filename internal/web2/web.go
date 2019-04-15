@@ -6,8 +6,6 @@ package web2
 
 import (
 	"bytes"
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/cfg"
 	"encoding/json"
 	"flag"
 	"fmt"
@@ -21,6 +19,9 @@ import (
 	"runtime/debug"
 	"strings"
 	"sync"
+
+	"github.com/goproxyio/goproxy/internal/base"
+	"github.com/goproxyio/goproxy/internal/cfg"
 )
 
 var TraceGET = false

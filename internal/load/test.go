@@ -6,10 +6,10 @@ package load
 
 import (
 	"bytes"
-	"github.com/goproxyio/goproxy/internal/base"
-	"github.com/goproxyio/goproxy/internal/str"
 	"errors"
 	"fmt"
+	"github.com/goproxyio/goproxy/internal/base"
+	"github.com/goproxyio/goproxy/internal/str"
 	"go/ast"
 	"go/build"
 	"go/doc"

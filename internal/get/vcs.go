@@ -8,7 +8,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/goproxyio/goproxy/internal/singleflight"
 	"log"
 	"net/url"
 	"os"
@@ -17,6 +16,8 @@ import (
 	"regexp"
 	"strings"
 	"sync"
+
+	"github.com/goproxyio/goproxy/internal/singleflight"
 
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"

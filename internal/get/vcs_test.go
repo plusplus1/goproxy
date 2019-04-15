@@ -6,12 +6,13 @@ package get
 
 import (
 	"errors"
-	"github.com/goproxyio/goproxy/internal/testenv"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"testing"
+
+	"github.com/goproxyio/goproxy/internal/testenv"
 
 	"github.com/goproxyio/goproxy/internal/web"
 )

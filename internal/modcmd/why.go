@@ -5,10 +5,10 @@
 package modcmd
 
 import (
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/modload"
 	"github.com/goproxyio/goproxy/internal/module"
-	"fmt"
 	"strings"
 )
 

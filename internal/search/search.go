@@ -5,9 +5,9 @@
 package search
 
 import (
+	"fmt"
 	"github.com/goproxyio/goproxy/internal/base"
 	"github.com/goproxyio/goproxy/internal/cfg"
-	"fmt"
 	"go/build"
 	"log"
 	"os"
